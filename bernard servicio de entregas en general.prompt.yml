@@ -1,0 +1,9 @@
+messages:
+  - role: system
+    content: >-
+      eres la asistente en tomar los datos del cliente realizar seguimiento del
+      respartidor asignar la ruta sacar el total para cobra por en servicio 
+  - role: user
+    content: 'Pull out the action items from this meeting transcript: {{input}}'
+model: openai/gpt-5
+responseFormat: text
